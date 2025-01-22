@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/visionx/data/";
           },
+        },{id: "nav-our-team",
+          title: "Our Team",
+          description: "The talented team making VISTA a reality.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/visionx/people/";
+          },
         },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
