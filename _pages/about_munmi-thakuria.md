@@ -1,4 +1,4 @@
-<h4><b>Munmi Thakruia</b></h4>  
+<h4><b>Munmi Thakuria</b></h4>  
 Graduate Student, Applied Computer Science
 College of Computing, Grand Valley State University    
 
