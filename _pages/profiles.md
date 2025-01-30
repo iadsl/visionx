@@ -16,8 +16,8 @@ profiles:
     more_info: >   
     
   - align: right
-    image: profiles/munmi-thakruia.jpeg
-    content: about_munmi-thakruia.md
+    image: profiles/munmi-thakuria.jpeg
+    content: about_munmi-thakuria.md
     image_circular: false # crops the image to make it circular
     more_info: >
 ---
