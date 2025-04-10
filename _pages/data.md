@@ -35,3 +35,13 @@ Below is a curated list of datasets available for research in diabetic retinopat
 
 - STARE Dataset: A dataset containing images for retinal disease diagnosis and vessel segmentation.
   - [STARE Dataset](https://cecas.clemson.edu/~ahoover/stare/)
+
+
+Data Preprocessing
+
+RFMiD- Downloaded the dataset from the link as mentioned above.
+RFMiD dataset has compressed .zip files that contain images and corresponding label CSVs. This preprocessing script unpacks those files, cleans up the directory structure.
+1. Unzipping the dataset: The script scans for all the .zip files, which are then extracted into a temporary folder structure. The script also takes care of the nested folder.
+2. Identifying the folder structure: As RFMiD has two datasets, All Classes Dataset and Challenge Dataset.
+3. Organizing Image Subsets: Images are organized into three subsets Training Set, Validation Set, Testing Set. All images are moved to those structured folders.
+4. Standardizing CSV files: All CSV files are renamed to training_label.csv, validation_labels.csv, testing_labels.csv, and they are moved under Groundtruths folder.
